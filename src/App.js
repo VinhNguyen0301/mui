@@ -3,11 +3,13 @@ import * as React from "react";
 import Feed from "./components/Feed";
 import RightBar from "./components/RightBar";
 import SideBar from "./components/SideBar";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    // <NavBar />
     <Box>
+      <NavBar />
+
       <Stack direction="row" spacing={2} justifyContent="space-between">
         <SideBar />
         <Feed />
